@@ -83,3 +83,13 @@
     font-weight: bold;
     color:gray;
 }
+.about{
+    display:flex;
+    flex-direction: column;
+}
+.para{
+    border:1px solid black;
+    margin-left:20px;
+    margin-top:50px;
+    padding:10px;
+}
