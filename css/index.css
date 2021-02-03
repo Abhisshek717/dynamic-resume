@@ -1,0 +1,85 @@
+/*heading*/
+.header{
+    display: flex;
+  
+}
+.header h1{
+    font-weight: lighter;
+    font-size: 40px;
+    margin-left:20px;
+}
+
+
+/*image*/
+.image{
+    width:150px;
+    height:150px;
+    border-radius: 100px;
+   
+    padding:5px;
+}
+
+/*body*/
+.main{
+    display:flex;
+    
+    margin-left:10px;
+    margin-right:10px;
+    
+}
+
+/*left card*/
+.profile__card{
+    border:1px solid black;
+    padding:20px;
+    margin-top:50px;
+    width:10%;
+}
+.profile__name{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.profile__div{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    font-weight:bold;
+}
+
+
+/* .skills{
+    border:1px solid black;
+    margin-left:20px;
+    width:90%;
+    margin-top:50px;
+}
+.skills__heading h1{
+    font-size: 40px;
+    font-weight: lighter;
+    margin-left:30px;
+} */
+
+/*skills*/
+.languages{
+    border:1px solid black;
+    padding:30px;
+    margin-top:50px;
+    margin-left:20px;
+}
+.languages p{
+    font-size: large;
+    font-weight: bold;
+    color:gray;
+}
+.projects{
+    border:1px solid black;
+    padding:30px;
+    margin-top:50px;
+    margin-left:20px;
+}
+.projects p{
+    font-size: large;
+    font-weight: bold;
+    color:gray;
+}
